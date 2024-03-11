@@ -1,0 +1,31 @@
+table {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px rgba(128, 128, 128, 0.13) solid;
+}
+h2,
+p {
+  margin: 0;
+}
+.fast,
+.basik,
+.qualitative,
+.web,
+td:nth-child(2),
+td:nth-child(4) {
+  background-color: rgba(128, 128, 128, 0.123);
+}
+button {
+  display: block;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: yellow;
+  text-align: center;
+  margin: auto;
+}
